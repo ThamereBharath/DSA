@@ -51,13 +51,13 @@ public class numIslands {
 
     public static void main(String[] args) {
 
-        char[][] grid = {
+        char[][] p = {
                 {'1','0','1','0','1'},
                 {'0','0','1','0','0'},
                 {'1','0','1','0','1'}
         };
 
-        int result = numIslands(grid);
+        int result = numIslands(p);
         System.out.println("Number of Islands: " + result);  
     }
 }
